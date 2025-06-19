@@ -15,7 +15,7 @@ export function GridBackground() {
 
   return (
     <div className="fixed top-0 -z-[1] flex h-screen justify-center items-center w-full">
-      <div className="box-grid grid grid-cols-9 w-full h-full">
+      <div className="box-grid grid grid-cols-4 md:grid-cols-9 w-full h-full">
         {Array.from({ length: 81 }, (_, i) => (
           <div
             suppressHydrationWarning
